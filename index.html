@@ -1,0 +1,57 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Cross-check js30#3.3-random-game</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="logo"><img src="./img/logo.png" width="162" height="168"></div>
+
+        <div id="tictactoe-container">
+            <div class="sound">
+                <img src="./img/sound.png" class="on" width="32" height="32">
+                <img src="./img/sound_off.png" class="off" width="32" height="32">
+            </div>
+
+            <div class="cell first" id="0"></div>
+            <div class="cell first" id="1"></div>
+            <div class="cell first" id="2"></div>
+
+            <div class="cell second" id="3"></div>
+            <div class="cell second" id="4"></div>
+            <div class="cell second" id="5"></div>
+
+            <div class="cell third" id="6"></div>
+            <div class="cell third" id="7"></div>
+            <div class="cell third" id="8"></div>
+            <div class="redline"></div>
+            <div class="statDashboard">
+                <div class="header">Results (last 10):</div>
+                <ul class="results"></ul>
+                <div href="#" class="close"></div>
+            </div>
+        </div>
+        <div id="gameMessage" class="message">Let's start! Your move!</div>
+        <div class="button-container">
+            <button id="statButton" class="button orange">Statistic</button>
+            <button id="resetButton" class="button blue">Reset</button>
+        </div>
+    </div>
+    <div class="card__info">
+        <a class="rss-link" href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+            <img src="./img/rss-logo.svg" alt="rs.school logo" width="32" height="32">
+        </a>
+        <div class="author-info">
+            <a class="author-link" href="https://github.com/a-sovetkin" target="_blank">a-sovetkin</a>
+            <span class="year">2024</span>
+        </div>
+    </div>
+    <script async src="js/script.js"></script>
+</body>
+</html>
